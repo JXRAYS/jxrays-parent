@@ -2,16 +2,15 @@
   min-height: 100vh;
   background-color: #f5f7fa;
   width: 100%;
-  overflow-x: hidden;
   box-sizing: border-box;
 
   .home-content {
-    height: calc(100vh - 100rpx);
+    height: 100vh;
     padding: 24rpx;
-    padding-bottom: 120rpx;
+    padding-bottom: 140rpx;
     width: 100%;
     box-sizing: border-box;
-    overflow-x: hidden;
+    overflow-y: auto;
   }
 
   .parent-center-card {

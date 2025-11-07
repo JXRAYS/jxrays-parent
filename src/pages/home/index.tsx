@@ -1,6 +1,5 @@
-import { View, Text, Image, ScrollView } from "@tarojs/components";
+import { View, Text, Image } from "@tarojs/components";
 import { useEffect } from "react";
-import observer, { GlobalStore } from "@shared/store";
 import "./index.scss";
 
 const Home = () => {
@@ -10,7 +9,7 @@ const Home = () => {
 
   return (
     <View className="home-page">
-      <ScrollView className="home-content" scrollY>
+      <View className="home-content">
         {/* 家长中心卡片 */}
         <View className="parent-center-card">
           <View className="card-bg">
@@ -97,9 +96,9 @@ const Home = () => {
             </View>
           </View>
         </View>
-      </ScrollView>
+      </View>
     </View>
   );
 };
 
-export default observer(Home);
+export default Home;
