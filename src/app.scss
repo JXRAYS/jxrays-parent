@@ -6,6 +6,9 @@ page {
   --primary-color: #8364fe;
   --light-color: #d198ff;
   --price-color: #fd6e57;
+  width: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
 }
 
 // iphoneX底部适配

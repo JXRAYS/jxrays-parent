@@ -27,7 +27,8 @@
     "dev:jd": "npm run build:jd -- --watch",
     "dev:quickapp": "npm run build:quickapp -- --watch",
     "test": "jest --config jest.config.js --no-cache",
-    "postinstall": "weapp-tw patch"
+    "postinstall": "weapp-tw patch",
+    "dev": "npm run build:weapp -- --watch"
   },
   "repository": {
     "type": "git",
